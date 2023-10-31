@@ -1,0 +1,215 @@
+header{
+    background-color: #CE0505;
+    width:100%;
+    height: 80px;
+    position: relative;
+}
+.logo_span{
+    position: absolute;
+    top: 12px;
+    left: 102px;
+}
+.logo{
+    font: normal normal 600 33px/50px Poppins;
+    color: #EB2929;
+    border-radius: 50%;
+    text-decoration: none;
+    background-color: white;
+    padding: 4px 10px;
+}
+.Account{
+    display: flex;
+    float: right;
+    padding: 15px 10px;
+}
+.login, .create{  
+    font: normal normal 16px/25px Poppins;
+    color: #ffff;
+    opacity: 0.8;
+    text-decoration: none;
+    padding: 12px;
+}
+.create{
+    margin-right: 115px;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 12px;
+}
+main{
+    background: #FBFBFB 0% 0% no-repeat padding-box;
+    padding: 20px 113px;
+}
+.title{
+    color:#192F60;
+    font:normal normal 900 36px/55px Poppins;
+}
+section{
+    display: grid;
+    grid-template-columns: 260px 794px;
+    gap: 40px;
+}
+.grid-row{
+    display: grid;
+    grid-template-rows: 291px 291px;
+    gap: 30px;
+}
+.Filters{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    padding: 10px 25px;
+}
+.filtertext{
+    font: normal normal 600 18px/27px Poppins;
+    size: 18px;
+    color: #192F60;
+}
+.Label{
+    font: normal normal normal 14px/21px Poppins;
+    size: 14px;
+    color:#192F60;
+}
+.Loc{
+    border: 2px solid #8C96AB;
+    border-radius: 3px;
+    width: 208px;
+    height: 35px;
+    font: normal normal normal 14px/21px Poppins;
+    color: #192F60;
+    opacity: 0.8;
+    padding: 8px;
+}
+.Location{
+    width: 208px;
+    height: 35px;
+    border: 1px solid #8C96AB;
+    border-radius: 3px;
+}
+.Cuisine{
+    font: normal normal normal 14px/21px Poppins;
+    color: #8C96AB;
+    padding-bottom: 12px;
+}
+input:where([type="checkbox"]){
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    vertical-align: top;
+    border: 2px solid #3A5075;
+    border-radius: 2px;
+    cursor: pointer;
+    background: #fff no-repeat center center;
+}
+input[type="checkbox"]:after{
+    content: "\2713";
+    align-content: center;
+    font-size: 12px;
+    color: white;
+    display: none;
+}
+input[type="checkbox"]:hover{
+    background-color: #476392;
+}
+input[type="checkbox"]:checked{
+    background-color: #3A5075;
+}
+input[type="checkbox"]:checked:after{
+    display: block;
+}
+.Cost{
+    font: normal normal normal 14px/21px Poppins;
+    color: #8C96AB;
+}
+.sort{
+    font: normal normal normal 14px/21px Poppins;
+    color: #8C96AB;
+}
+input:where([type="radio"]){
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  vertical-align: top;
+  border: 2px solid #3A5075;
+  border-radius: 50%;
+  background: #fff no-repeat center center;
+}
+input[type="radio"]:after{
+    display: none;
+}
+input[type="radio"]:hover{
+    background-color: #476392;
+}
+input[type="radio"]:checked{
+    background-color: #3A5075;
+}
+input[type="radio"]:checked:after{
+    display: block;
+}
+.result1, .result2{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    padding: 25px 35px;
+}
+.result-col-grid{
+    display: grid;
+    grid-template-columns: 166px 400px;
+}
+.results{
+    font: normal normal 600 30px/46px Poppins;
+    color: #192F60;
+    margin: 0px 0px;
+}
+.result-content{
+    font: normal normal bold 16px/30px Poppins;
+    color: #192F60;
+    margin: 1px 1px;
+}
+.result-address{
+    font: normal normal normal 16px/30px Poppins;
+    color: #636F88;
+    margin: 0px 0px;
+}
+hr{
+    color: #636F88;
+    height: 1px;
+    opacity: 0.8;
+}
+.list-div{
+    display: flex;
+    justify-content: space-between;
+}
+.dt{
+    font: normal normal normal 16px/30px Poppins;
+    color: #636F88;
+}
+.dd{
+    font: normal normal normal 16px/30px Poppins;
+    color: #192F60;
+}
+.result-img{
+    width: 120px;
+    height: 120px;
+    border-radius: 30px;
+}
+.pages{
+    padding: 30px 277px;
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.page1{
+    display: inline;
+    font: normal normal 20px/30px Poppins;
+    color: #8C96AB;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid #8C96AB;
+    width: 34px;
+    height: 34px;
+    border-radius: 4px;
+    text-align: center;
+}
+.page1:active{
+    background-color: #8C96AB;
+    color: white;
+}
